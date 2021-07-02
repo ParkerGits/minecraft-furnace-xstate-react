@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-mono;
+}
+.gui {
+  @apply border-4;
+  border-color: whitesmoke grey grey whitesmoke;
+  outline: 2px solid black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.gui-slot {
+  @apply border-2;
+  border-color: grey whitesmoke whitesmoke grey;
+}
+
+.minecraft-button {
+  @apply border-2 bg-gray-400 mx-2 text-white p-1;
+  border-color: lightgray rgb(60, 60, 60) rgb(60, 60, 60) lightgray;
+  outline: 2px solid black;
+  text-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.65) !important;
+}
+
+.minecraft-input {
+  @apply bg-black text-white p-1;
+  outline: 2px solid grey;
+}
+
+.minecraft-input::-webkit-outer-spin-button,
+.minecraft-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.minecraft-input:hover,
+.minecraft-input:focus {
+  outline: 2px solid whitesmoke;
+}
+
+.minecraft-button:hover {
+  outline: 2px solid white;
 }
