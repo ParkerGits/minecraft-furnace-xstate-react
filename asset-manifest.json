@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/minecraft-furnace-xstate-react/static/css/main.e11d670d.chunk.css",
+    "main.js": "/minecraft-furnace-xstate-react/static/js/main.075238c5.chunk.js",
+    "main.js.map": "/minecraft-furnace-xstate-react/static/js/main.075238c5.chunk.js.map",
+    "runtime-main.js": "/minecraft-furnace-xstate-react/static/js/runtime-main.ba971bff.js",
+    "runtime-main.js.map": "/minecraft-furnace-xstate-react/static/js/runtime-main.ba971bff.js.map",
+    "static/js/2.dd4ad00c.chunk.js": "/minecraft-furnace-xstate-react/static/js/2.dd4ad00c.chunk.js",
+    "static/js/2.dd4ad00c.chunk.js.map": "/minecraft-furnace-xstate-react/static/js/2.dd4ad00c.chunk.js.map",
+    "static/js/3.d184dbd3.chunk.js": "/minecraft-furnace-xstate-react/static/js/3.d184dbd3.chunk.js",
+    "static/js/3.d184dbd3.chunk.js.map": "/minecraft-furnace-xstate-react/static/js/3.d184dbd3.chunk.js.map",
+    "index.html": "/minecraft-furnace-xstate-react/index.html",
+    "static/css/main.e11d670d.chunk.css.map": "/minecraft-furnace-xstate-react/static/css/main.e11d670d.chunk.css.map",
+    "static/js/2.dd4ad00c.chunk.js.LICENSE.txt": "/minecraft-furnace-xstate-react/static/js/2.dd4ad00c.chunk.js.LICENSE.txt",
+    "static/media/Cobblestone.5fc6c146.png": "/minecraft-furnace-xstate-react/static/media/Cobblestone.5fc6c146.png",
+    "static/media/Sand.a7cc8126.png": "/minecraft-furnace-xstate-react/static/media/Sand.a7cc8126.png",
+    "static/media/index.css": "/minecraft-furnace-xstate-react/static/media/bg.d633f1f9.png",
+    "static/media/idle.a1fc2a66.png": "/minecraft-furnace-xstate-react/static/media/idle.a1fc2a66.png",
+    "static/media/smelting.2f687a61.gif": "/minecraft-furnace-xstate-react/static/media/smelting.2f687a61.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba971bff.js",
+    "static/js/2.dd4ad00c.chunk.js",
+    "static/css/main.e11d670d.chunk.css",
+    "static/js/main.075238c5.chunk.js"
+  ]
+}
