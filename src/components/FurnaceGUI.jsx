@@ -82,6 +82,8 @@ function FurnaceGUI({current, itemChoice}) {
           className={`bg-white h-full ${
             current.context.progress === 0
               ? 'w-0'
+              : current.context.progress === 12
+              ? 'w-full'
               : `w-${current.context.progress}/12`
           }`}
         ></div>
@@ -107,3 +109,25 @@ function FurnaceGUI({current, itemChoice}) {
 }
 
 export default FurnaceGUI
+
+/**
+ * PurgeCSS for conditional styles:
+ * h-1/6
+ * h-2/6
+ * h-3/6
+ * h-4/6
+ * h-5/6
+ * h-full
+ * w-1/12
+ * w-2/12
+ * w-3/12
+ * w-4/12
+ * w-5/12
+ * w-6/12
+ * w-7/12
+ * w-8/12
+ * w-9/12
+ * w-10/12
+ * w-11/12
+ * w-full
+ */

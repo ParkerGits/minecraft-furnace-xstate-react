@@ -38,7 +38,7 @@ const furnaceMachine = createMachine({
             default:
               break
           }
-          context.fuel.quantity = event.quantity
+          context.fuel.quantity += event.quantity
         },
       },
     ],

@@ -17,7 +17,7 @@ function App() {
   }
   const handleFuelSubmit = (e) => {
     e.preventDefault()
-    send({type: 'ADD_FUEL', item: fuelChoice, quantity: fuelQuantity})
+    send({type: 'ADD_FUEL', item: fuelChoice, quantity: parseInt(fuelQuantity)})
   }
   return (
     <div className="flex flex-col items-center">
